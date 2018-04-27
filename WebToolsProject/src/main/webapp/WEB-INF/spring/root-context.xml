@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+		<bean id="UserController" class="com.me.controller.UserController"></bean>
+		<bean id="userdao" class="com.me.dao.UserDao"></bean>
+		<bean id="productdao" class="com.me.dao.ProductDao"></bean>
+		<bean id="cartitemdao" class="com.me.dao.CartItemDao"></bean>
+		<bean id="cartdao" class="com.me.dao.CartDao"></bean>
+		<bean id="validation" class="com.me.validator.Validation"></bean>
+		<bean id="orderdao" class="com.me.dao.OrderDao"></bean>
+		<bean id="AdminController" class="com.me.controller.AdminController"></bean>
+		<bean id="Homecontroller" class="com.me.controller.Homecontroller"></bean>
+		<bean id="Cartcontroller" class="com.me.controller.CartController"></bean>
+		<bean id="Finalcontroller" class="com.me.controller.FinalController"></bean>
+</beans>
